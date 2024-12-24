@@ -12,7 +12,7 @@ const DynamicAlbum = async ({ params }: { params: { id: string } }) => {
       <h1 className="text-3xl font-bold text-center text-violet-500">Album Details</h1>
       <div className="space-y-4 text-lg">
         <div>
-            <span className="font-semibold">User ID:</span> {response.userid}
+            <span className="font-semibold">User ID:</span> {response.userId}
             </div>
             <div>
                 <span className="font-semibold">ID:</span> {response.id}
